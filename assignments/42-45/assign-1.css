@@ -1,0 +1,28 @@
+.parent {
+    background-color: blue;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    margin: 50px auto;
+    text-align: center;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+}
+
+.parent :hover {
+    margin-top: 30px;
+}
+
+
+.child {
+    background-color: #ccc;
+    padding: 20px;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+    transition-timing-function: linear;
+}
+
+.parent :hover .child {
+    margin-top: 30px;
+}

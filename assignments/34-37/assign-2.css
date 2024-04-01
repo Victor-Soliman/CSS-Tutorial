@@ -1,0 +1,19 @@
+div {
+    margin: auto;
+    text-align: center;
+    margin-top: 400px;
+    background-color: rgb(183, 183, 183);
+    padding: 20px 10px;
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;   
+}
+
+div::first-letter {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    position: absolute;
+    margin-left: -60px;
+}

@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+
+h1 {
+    width: 150px;
+    background-color: #ff5722;
+    color: #eee;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.one::before,
+.one::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ff5722;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+.one::before {
+    transform: skew(10deg, 10deg);
+}
+
+.one::after {
+    transform: skew(-10deg, -10deg);
+}

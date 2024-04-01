@@ -1,0 +1,27 @@
+div {
+    width: 500px;
+    background-position: left center;
+    padding: 20px 20px;
+    /* background-color: blueviolet; */
+
+}
+
+.assign-1-shape-1 {
+    background-color: rgb(138 43 226);
+}
+
+.assign-1-shape-2 {
+    background-color: rgb(54.12% 16.86% 88.63%);
+}
+
+.assign-1-shape-3 {
+    background-color: #8a2be2;
+}
+
+.assign-1-shape-4 {
+    background-color: rgb(138 43 226 / 50%);
+}
+
+.assign-1-shape-5 {
+    background-color: rgb(138 43 226 / 10%);
+}

@@ -1,0 +1,56 @@
+/* 
+all the elements that have clase title
+*/
+.title {}
+
+/* all elements that have id="nav" */
+#nav {}
+
+/* all the divs */
+div {}
+
+/* all elements with h2 */
+h2 {}
+
+
+/*valid  */
+/* ._user-name {
+
+} */
+/* valid */
+/* .-user-name {
+
+} */
+/* not valid */
+/* .1user-name {
+
+} */
+/* not valid*/
+/* .@user-name {
+
+} */
+/* not valid */
+/* .user@name{
+    
+} */
+/* valid */
+._user10name {}
+
+/* valid */
+.u {}
+
+
+/* bad */
+.USERNAME {}
+
+/* bad */
+.UserName {}
+
+/* good */
+.user-name {}
+
+/* bad */
+.userName {}
+
+/* bad */
+.usernameprofile {}

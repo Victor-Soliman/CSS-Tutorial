@@ -1,0 +1,107 @@
+div {
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+table {
+    margin-top: 10px;
+    width: 700px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-spacing: 1px;
+    border-bottom: 2px solid #009688;
+}
+
+th {
+    background-color: #6c6b6b;
+    color: #eee;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+td {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    display: block;
+    border: 2px solid gray;
+}
+
+.view {
+    background-color: #2669f0;
+    color: #eee;
+    border: none;
+}
+
+.delete {
+    background-color: #f02681;
+    color: #eee;
+    border: none;
+}
+
+
+/* second solution */
+
+/* table {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    border-spacing: 1px;
+    border-bottom: 2px solid #009688;
+}
+
+caption {
+    margin: 20px;
+    font-weight: bold;
+}
+
+th {
+    color: white;
+    background-color: #404040;
+    padding: 15px;
+}
+
+td {
+    color: black;
+    background-color: #eeeeee;
+    padding: 10px;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    display: block;
+    border: 2px solid gray;
+}
+
+button {
+    text-transform: inherit;
+    border: none;
+    color: white;
+    padding: 3px 7px;
+    margin: 3px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.view {
+    background-color: #03a9f4;
+}
+
+.delete {
+    background-color: #e91e63;
+} */

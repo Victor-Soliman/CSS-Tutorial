@@ -1,0 +1,22 @@
+/* we usually use :box-sizing: border-box; because if you add paddding it will stay inside the box, but if you use : box-sizing: content-box; -> the pading will go out of the box
+*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.one {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -5px 0 0 0 #0693e3, 5px 0 0 0 #ff6900;
+    font-weight: bold;
+    color: #ff6900;
+}

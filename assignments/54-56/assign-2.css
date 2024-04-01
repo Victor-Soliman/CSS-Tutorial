@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    height: 300px;
+}
+
+input {
+    width: 600px;
+    display: block;
+    padding: 20px;
+    margin: 10px auto;
+    background-color: #eee;
+    border: none;
+    caret-color: red;
+    position: relative;
+    font-size: 25px;
+}
+
+input:focus {
+    outline: none;
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    margin: 10px;
+    width: 600px;
+    height: 3px;
+    top: 70px;
+    left: 650px;
+    background-color: red;
+    background-image: linear-gradient(to right, orangered 50%, green 50%, green 100%);
+}
+
+div::after {
+    content: "";
+    position: absolute;
+    margin: 10px;
+    width: 600px;
+    height: 3px;
+    top: 150px;
+    left: 650px;
+    background-image: linear-gradient(to right, orangered 50%, green 50%, green 100%);
+}
+
+/* this is not working */
+.two::after {
+    content: "";
+    position: absolute;
+    margin: 10px;
+    width: 600px;
+    height: 3px;
+    top: 230px;
+    left: 650px;
+    background-image: linear-gradient(to right, orangered 50%, green 50%, green 100%);
+}
+
+/* another solution */
+
+/* input {
+    all: initial;
+    background-color: #eee;
+    display: block;
+    margin: 10px auto;
+    width: 600px;
+    padding: 10px;
+    caret-color: red;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(to right, #ef4834 50%, #3e9788 50%);
+    border-image-slice: 1;
+} */

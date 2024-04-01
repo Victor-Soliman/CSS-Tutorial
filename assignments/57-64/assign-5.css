@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 10px auto;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 300px 20px;
+    /* here is the difference second solution*/
+    /* grid-template-columns: repeat(2, 350px);
+      justify-content: space-around;
+      align-content: space-between; */
+}
+
+.grid div {
+    background-color: #e91e63;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

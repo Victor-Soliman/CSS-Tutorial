@@ -1,0 +1,22 @@
+p {
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+.first {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: italic;
+    word-spacing: 4px;
+}
+
+.second {
+    font-family: 'Cairo';
+    font-weight: 700;
+}
+
+.third {
+    font-family: 'Jomhuria';
+    font-weight: 400;
+}

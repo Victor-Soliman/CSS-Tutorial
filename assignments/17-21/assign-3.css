@@ -1,0 +1,17 @@
+div {
+    background-color: antiquewhite;
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.special {
+    background-color: antiquewhite;
+    width: 400px;
+    height: 12px;
+    padding: 5px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
