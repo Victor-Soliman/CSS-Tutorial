@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+.assign-three {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.assign-three div {
+    background-color: #eee;
+    width: 200px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.assign-three div h3 {
+    color: #009688;
+}
+
+/* small screens */
+@media (min-width: 300px) {
+    .assign-three div {
+        width: calc(100% - 10px);
+    }
+
+    .assign-three div h3 {
+        color: black;
+    }
+}
+
+/* medium screens  */
+@media (min-width: 600px) {
+    .assign-three div {
+        width: calc(50% - 10px);
+    }
+
+    .assign-three div h3 {
+        color: red;
+    }
+
+    .assign-three .one {
+        width: calc(100% - 10px);
+    }
+
+    .assign-three .two,
+    .assign-three .three,
+    .assign-three .four {
+        width: calc(33.3% - 10px);
+    }
+}
+
+/* Large Screens */
+@media (min-width: 800px) {
+    .assign-three div {
+        width: calc(25% - 10px);
+    }
+
+    .assign-three .one,
+    .assign-three .four {
+        width: calc(100% - 10px);
+    }
+
+    .assign-three .two,
+    .assign-three .three {
+        width: calc(50% - 10px);
+    }
+
+    .assign-three div h3 {
+        color: #009688;
+    }
+}
